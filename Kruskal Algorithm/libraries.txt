@@ -1,0 +1,7 @@
+R1,Ramsey,Roseville,140,525
+R2,Ramsey,Mounds View,15,20
+R3,Ramsey,New Brighton,135,260
+R4,Ramsey,ShoreView,250,70
+R5,Ramsey,White Bear,550,75
+R6,Ramsey,MapleWood,535,350
+R7,Ramsey,North SP,600,535
