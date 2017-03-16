@@ -4,7 +4,7 @@
 
 ** This implementation guards against that as much as it can without introducing artificial delay on the total order. 
 This is done by controlling the wait time of each new user externally, and then starting them
-after they have waiting. Each thread then calls enter. This reduces race conditions, and has the added benefit of reducing the overall number of concurrent
+after they have waited. Each thread then calls enter. This reduces race conditions, and has the added benefit of reducing the overall number of concurrent
 threads when measured instantaneously.
 
 ** Bathroom1.java will allow cutting of any arriving gender in front of the queue if they are not gender restricted from entering.
@@ -18,15 +18,14 @@ of the same sex user is holding up the opposite sex.  It uses locks and a male a
 ** Bathroom4.java  uses a re-entrant lock and a condition for each thread. (this is why signal() is adequate and signalAll() is not necessary Returns in FIFO order
 
 ** BathroomInterface.java enforces enter() and leave()
-** Bathroom.java has all the mumboJumbo that would otherwise muddle up the implementations and also reduces duplication
+** Bathroom.java has all the mumbo-Jumbo that would otherwise muddle up the implementations and also reduces duplication
  
 ** All strings are abstracted out into static strings class. (or as much as possible)
 
 ** Growler.java is a simple and convenient way of communicating to the user without having to worry about cleanup. I have used it over
-the yeas in a number of assignments with not issues. It cleans intself up.
+the years in a number of assignments with no issues. It cleans intself up.
 
-** Debug mode will open a panel with the exact order of service for all users in the same format as the input file. This facilitates testing using a file diffing 
-tool to verify FIFO compliance.  It will also write a file out in this same format.
+** Debug mode will open a panel with the exact order of service for all users in the same format as the input file. This facilitates testing using a file diffing tool to verify FIFO compliance.  It will also write a file out in this same format.
 
 ** View supoorts drag and drop file input.
 
