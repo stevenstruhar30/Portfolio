@@ -9,11 +9,11 @@ A sampling of work I have done during a computer science degree program and othe
  
 - Linked list in C is just that. Heckofajob
 
-- Shared Bathroom Threading problem is an elaborated solution to the multiple gender bathroom sharing problem with a third impatient gender of Zombie thrown into the mix.
-  - Compile and run BathroomProblem.java to see. It is solved using several different locking mechanism.
+- Shared Bathroom Threading problem is an elaborate solution to the multiple gender bathroom sharing problem with a third impatient gender of Zombie thrown into the mix.
+  - Compile and run BathroomProblem.java to see. It is solved using several different locking mechanisms.
  
  - Tree Builder will show you a tree-i-fied version of your typing on the fly.
    - Compile and run test.java to see it.
   
-- Virtual memory is a Memory Management Module simulator in java. It maps physical memory to virtual memory and implements a paging system that writes blocks to disk when physical memory is reallocated. 
+- Virtual memory is a Memory Management Module simulator in java. It maps physical memory to virtual memory and implements a paging system that writes blocks to disk when physical memory is reallocated. Pretty sweet.
   - Compile and run Test.java to see it.
