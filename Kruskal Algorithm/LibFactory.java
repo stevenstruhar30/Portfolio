@@ -10,10 +10,10 @@ import java.util.PriorityQueue;
 public class LibFactory
 {
 	private static final String LIB_OBJ_SPLIT_REGEX = ",";
-	private static final String MAC_SRC_LIBS_TXT = "src/libraries.txt";//MAC PATH
-	private static final String WIN_SRC_LIBS_TXT = "C:\\ics340\\libraries.txt";//WIN PATH
-	private static final String MAC_SRC_DIST_TXT = "src/distances.txt";//MAC PATH
-	private static final String WIN_SRC_DIST_TXT = "C:\\ics340\\distances.txt";//WIN PATH
+	private static final String MAC_SRC_LIBS_TXT = "./libraries.txt";//MAC PATH
+	private static final String WIN_SRC_LIBS_TXT = "./libraries.txt";//WIN PATH
+	private static final String MAC_SRC_DIST_TXT = "./distances.txt";//MAC PATH
+	private static final String WIN_SRC_DIST_TXT = "./distances.txt";//WIN PATH
 	private ArrayList<Library> libList;
 	private LibraryGraph libGraph;
 	private Collection<Edge> myEdges;
